@@ -5,4 +5,20 @@ class Circle {
   get diameter() {
     return this.radius * 2;
   }
+  
+  get circumference() {
+    return 2 * 3.14 * this.radius
+  }
+
+  get area() {
+    return 3.14 * Math.PI(this.radius,2)
+  }
+
+  set diameter(dia) {
+    this.radius = dia/2
+  }
+
+  set circumference(num) {
+    this.radius =  (num/3.14)/2
+  }
 }
